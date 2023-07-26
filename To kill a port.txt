@@ -1,0 +1,7 @@
+#To kill a port
+
+Steps---->
+----------------
+1) netstat -ano | findstr :8081
+
+2)taskkill /PID 246080 /F
